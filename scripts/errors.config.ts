@@ -32,7 +32,7 @@ export const errorDefinitions = {
    */
   InvalidModelSource: 0xff,
   /*
-   * Thrown when the number of passed inputs to the model is different than the model metadata specifies.
+   * Thrown when the number of passed inputs to the model is different than the model metadata specifies. Please verify docs or source code for the expected model I/O contract.
    */
   UnexpectedNumInputs: 0x61,
   /*
@@ -44,7 +44,7 @@ export const errorDefinitions = {
    */
   FileReadFailed: 0x72,
   /*
-   * Thrown when the size of model output is unexpected.
+   * Thrown when the size of model output is unexpected. Please verify docs or source code for the expected model I/O contract.
    */
   InvalidModelOutput: 0x73,
   /*
